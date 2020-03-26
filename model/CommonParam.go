@@ -5,7 +5,7 @@
  */
 package model
 
-import "aliyun-ddns-client/util"
+import "github.com/druidfund/aliyun-ddns-client/util"
 
 func GetCommonParam() []Param {
 	var params []Param = make([]Param,7)

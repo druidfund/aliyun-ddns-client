@@ -10,7 +10,7 @@ import (
 	"log"
 	"io/ioutil"
 	"encoding/json"
-	"aliyun-ddns-client/model"
+	"github.com/druidfund/aliyun-ddns-client/model"
 )
 
 func UpdateRecord(urlAfterSignature string)string  {

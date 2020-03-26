@@ -6,7 +6,7 @@
 package common
 
 import (
-	"aliyun-ddns-client/model"
+	"github.com/druidfund/aliyun-ddns-client/model"
 )
 
 func GetDescribeDomainRecordsParams() map[string]string {

@@ -6,9 +6,9 @@
 package common
 
 import (
-	"github.com/Unknwon/com"
-	"aliyun-ddns-client/model"
-	"aliyun-ddns-client/util"
+	"github.com/unknwon/com"
+	"github.com/druidfund/aliyun-ddns-client/model"
+	"github.com/druidfund/aliyun-ddns-client/util"
 )
 
 func GetUrlAfterSignature(api , privateKey string ,params map[string]string) (url string) {

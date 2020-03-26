@@ -12,7 +12,7 @@ import (
 	"github.com/satori/go.uuid"
 	"crypto/hmac"
 	"crypto/sha1"
-	"github.com/Unknwon/com"
+	"github.com/unknwon/com"
 	"os/exec"
 	"strings"
 	"regexp"
@@ -32,7 +32,7 @@ func GetTimeStr() string {
 }
 
 func GetUUID() string {
-	uu ,_ := uuid.NewV4()
+	uu := uuid.NewV4()
 	return  uu.String()
 }
 
